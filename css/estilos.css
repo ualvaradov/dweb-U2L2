@@ -1,39 +1,40 @@
-header{
-  background-color: rgb(213, 156, 64);
-  width: 100%;
-  height: 120px;
+body {
+	margin-left: 15%;
+	font-family: Verdana;
+	width: 70%;
+	color: #605B56;
 }
-section{
-  width: 100%;
-  height: 400px;
-  background-color: rgb(133, 195, 226);
+
+header h1{
+	padding-left: 10px;
 }
-/*por default las cajas ocupan el 100 por ciento 
-de la pantalla, por lo que les damos una proporción 
-a las cajas centrales de 20%, 80%*/
-section aside{
-  width: 20%;
-  height: 400px;
-  background-color: rgb(24, 128, 180);
-  float: left;
+
+
+#contenido {
+	padding: 10px;
+	background-color: F9F7F3;
+	margin-left: 200px;
+	list-style-type: none;
 }
-section article{
-  width: 80%;
-  height: 400px;
-  background-color: rgb(150, 185, 203);
-/*la caja article queda movida, por que la idea es que quda debajo de aside
-dentro de section, esto se corrige con la propiedad float*/
-  float: right;
+
+#contenido p img {
+float: right;
 }
-footer{
-  /*determina que no podrán ponerse objetos flotantes a ambos lados del elemento*/
-  clear: both;
-  height: 100px;
-  width: 100%;
-  background-color: rgb(218, 146, 29);
+
+
+
+footer {
+	clear: both;
+	border-top: solid 2px #605B56;
+	padding-top: 10px;
+	margin-top: 15px;
+	text-align: center;
 }
-header img{
-  height: 50%;
-  float: right;
-  padding: 0.5% 2% 0 0;
+
+#menu-principal ul {
+	float: left;
+	width: 200px;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
 }
