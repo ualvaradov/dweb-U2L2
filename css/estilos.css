@@ -8,18 +8,32 @@ section{
   height: 400px;
   background-color: rgb(133, 195, 226);
 }
+/*por default las cajas ocupan el 100 por ciento 
+de la pantalla, por lo que les damos una proporción 
+a las cajas centrales de 20%, 80%*/
 section aside{
   width: 20%;
   height: 400px;
   background-color: rgb(24, 128, 180);
+  float: left;
 }
 section article{
   width: 80%;
   height: 400px;
   background-color: rgb(150, 185, 203);
+/*la caja article queda movida, por que la idea es que quda debajo de aside
+dentro de section, esto se corrige con la propiedad float*/
+  float: right;
 }
 footer{
+  /*determina que no podrán ponerse objetos flotantes a ambos lados del elemento*/
+  clear: both;
   height: 100px;
   width: 100%;
   background-color: rgb(218, 146, 29);
+}
+header img{
+  height: 50%;
+  float: right;
+  padding: 0.5% 2% 0 0;
 }
