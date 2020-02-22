@@ -9,19 +9,23 @@ header h1{
 	padding-left: 10px;
 }
 
+#menu-principal ul {
+	float: left;
+	width: 200px;
+	padding: 0;
+	margin: 0;
+}
 
-#contenido {
+#menu-principal ul li {
 	padding: 10px;
-	background-color: F9F7F3;
-	margin-left: 200px;
 	list-style-type: none;
 }
 
-#contenido p img {
-float: right;
+#contenido {
+	margin-left: 200px;
+	padding: 10px;
+	background-color: F9F7F3;
 }
-
-
 
 footer {
 	clear: both;
@@ -31,10 +35,6 @@ footer {
 	text-align: center;
 }
 
-#menu-principal ul {
-	float: left;
-	width: 200px;
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
+#contenido p img {
+	float: right;
 }
